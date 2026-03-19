@@ -1,0 +1,20 @@
+{
+  "name": "mastra-metrics-act-1",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev"
+  },
+  "dependencies": {
+    "@mastra/core": "latest",
+    "@mastra/libsql": "latest",
+    "@mastra/observability": "latest",
+    "@mastra/loggers": "latest",
+    "@ai-sdk/openai": "latest",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "mastra": "latest",
+    "typescript": "^5.9.0"
+  }
+}
