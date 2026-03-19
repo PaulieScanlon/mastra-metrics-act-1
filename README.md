@@ -4,10 +4,10 @@ A demo app for exploring Mastra's logging. Two agents, two tools, one workflow, 
 
 ## Setup
 
-1. Create a `.env` file:
+1. Copy the example env file and add your API key:
 
-```
-OPENAI_API_KEY=sk-your-key-here
+```bash
+cp .env.example .env
 ```
 
 2. Install dependencies:
@@ -58,7 +58,7 @@ Switch to the terminal running `mastra dev`. You'll see structured log output fr
 - You can't see how long anything took without manually comparing timestamps
 - There's no way to click into a log line and see the full context of what happened around it
 
-This is the blind spot. Logs tell you *what* happened, but not *why* or *how it connects*.
+This is the blind spot. Logs tell you _what_ happened, but not _why_ or _how it connects_.
 
 ## Test 2: Agent without tools (Summarizer Agent)
 

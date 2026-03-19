@@ -6,14 +6,17 @@
     "dev": "mastra dev"
   },
   "dependencies": {
+    "@ai-sdk/openai": "latest",
     "@mastra/core": "latest",
     "@mastra/libsql": "latest",
-    "@mastra/observability": "latest",
     "@mastra/loggers": "latest",
-    "@ai-sdk/openai": "latest",
+    "@mastra/observability": "latest",
+    "@sentry/node": "^10.45.0",
+    "pino-sentry-transport": "^1.6.0",
     "zod": "^4.0.0"
   },
   "devDependencies": {
+    "dotenv": "^17.3.1",
     "mastra": "latest",
     "typescript": "^5.9.0"
   }
